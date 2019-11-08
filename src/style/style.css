@@ -1,0 +1,44 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    height: 104px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 39px 0px 39px 0px;
+    margin: 0;  /* for skip "margin-bottom" from bootstrap */
+    list-style-type: none; /*remove marks near to list items*/
+}
+
+.menu .menu_link {
+    color: #635c73;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu .menu_item_img {
+    padding-right: 295px;
+}
+
+.menu .menu_btn {
+    /* padding-left: 35px; */
+    width: 145px;
+    height: 38px;
+    border-radius: 28px;
+    background-color: #8d81ac;
+    color:  rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hero_screen {
+    min-height: 800px;
+    background: url("../img/bg/first_bg.jpg") center center/cover no-repeat;
+}
