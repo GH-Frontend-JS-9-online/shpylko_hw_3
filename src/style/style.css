@@ -215,7 +215,96 @@ header {
     left: 0;
 }
 
+.feedbacks {
+    min-height: 589px;
+    background-color: rgba(255, 255, 255, 1);
+    /* padding: 87px auto 79px; */
+}
 
 
+.feedbacks .feedback_person_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 87px;
+}
+
+.feedbacks .feedback_person_info {
+    /* display: flex; */
+    /* align-items: center; */
+    margin-left: 23px;
+    max-width: 200px;
+}
+
+.feedbacks .feedback_person_info .feedback_name {
+    color: rgba(99, 92, 115, 1);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.feedbacks .feedback_person_info .feedback_email {
+    color: rgba(141, 129, 172, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 7px;
+    line-height: 16px;
+}
+
+.feedbacks .feedback_block {
+    display: block;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.feedbacks .feedback_block .feedback_text {
+    color: rgba(51, 51, 51, 1);
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.feedbacks .feedback_block .feedback_text>span {
+    color: rgba(141, 129, 172, 1);
+}
+
+.feedbacks .feedback_block .feedback_subtext {
+    color: rgba(132, 142, 151, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+}
 
 
+.feedbacks .social_networks_btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;  /* for rewrite "margin-bottom" from bootstrap */
+    margin-top: 117px;
+    max-width: 800px;
+    list-style-type: none; /*remove marks near to list items*/
+}
+
+.feedbacks .social_networks_btn .social_logo {
+    display: block;
+    max-width: 100%;
+}
+
+.feedbacks .social_networks_btn .social_logo_text {
+    /* width: 119px;
+    height: 12px; */
+    color: #848e97;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 32px; */
+    text-align: center;
+    margin: 0;
+    margin-top: 18px;
+}
