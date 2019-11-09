@@ -7,38 +7,146 @@ header {
     background-color: rgba(255, 255, 255, 1);
 }
 
-.menu {
+.nav_menu {
     display: flex;
     justify-content: space-between;
     padding: 39px 0px 39px 0px;
-    margin: 0;  /* for skip "margin-bottom" from bootstrap */
+    margin: 0;  /* for rewrite "margin-bottom" from bootstrap */
     list-style-type: none; /*remove marks near to list items*/
 }
 
-.menu .menu_link {
+.nav_menu_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 31px;
+}
+
+.nav_menu .nav_menu_link {
     color: #635c73;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
 }
 
-.menu .menu_item_img {
-    padding-right: 295px;
-}
-
-.menu .menu_btn {
-    /* padding-left: 35px; */
+.nav_menu_btn {
     width: 145px;
     height: 38px;
     border-radius: 28px;
     background-color: #8d81ac;
+    border: none;
+    color:  rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 33px;
+}
+
+.hero_screen {
+    min-height: 800px;
+    background: url("../img/bg/first_bg.jpg") center center/cover no-repeat;
+    position: relative;
+}
+
+.hero_screen .hero_title {
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 82px;
+    font-weight: 700;
+    line-height: 82px;
+    margin: 0; /* for rewrite "margin-bottom" from bootstrap */
+    margin-top: 108px;
+    text-align: center;
+}
+
+.hero_screen .hero_subtitle {
+    color: #8d81ac;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0; /* for rewrite "margin-bottom" from bootstrap */
+    margin-top: 18px;
+    text-align: center;
+}
+
+.hero_screen .hero_descript {
+    color: #848e97;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin: 0; /* for rewrite "margin-bottom" from bootstrap */
+    margin-top: 18px;
+    text-align: center;
+}
+
+.hero_screen .hero_btn {
+    position: absolute;
+    left: 177px;
+    top: 766px;
+    /* top: 768px; h800px + 30px - 60px(height of the button) */
+    width: 390px;
+    height: 62px;
+    border-radius: 28px;
+    background-color: #8d81ac;
+    border: none;
     color:  rgba(255, 255, 255, 1);
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
 }
 
-.hero_screen {
-    min-height: 800px;
-    background: url("../img/bg/first_bg.jpg") center center/cover no-repeat;
+.revolution .row {
+    max-width: 100%;
+}
+
+.revolution {
+    min-height: 391px;
+    background-color: rgba(255, 255, 255, 1);
+    
+    /* padding: 108px auto 1px; */
+}
+
+.revolution .revolution_descript {
+    color: #848e97;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 15px; */
+    margin: 0; /* for rewrite "margin-bottom" from bootstrap */
+    margin-top: 48px;
+    text-align: center;
+}
+
+.revolution .revolution_title {
+    color: #635c73;
+    font-family: Montserrat;
+    font-size: 54px;
+    font-weight: 700;
+    /* line-height: 20.45px; */
+    text-transform: uppercase;
+    margin: 0; /* for rewrite "margin-bottom" from bootstrap */
+    margin-top: 66px;
+    text-align: center;
+}
+
+.revolution .revolution_subtitle {
+    display: block;
+    opacity: 0.8;
+    color: #323232;
+    font-family: "Source Sans Pro";
+    font-size: 21px;
+    font-weight: 400;
+    max-width: 878px;
+    text-align: center;
+    margin: 0 auto; /* for rewrite "margin-bottom" from bootstrap */
+    margin-top: 39px;
+    /* line-height: 32px; */
+}
+
+.revolution_git .git_img {
+    display: block;
+    margin: 0 auto; /* for rewrite "margin-bottom" from bootstrap */
+    margin-top: 36px;
 }
