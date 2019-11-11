@@ -99,6 +99,7 @@ header {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
+    z-index: 5;
 }
 
 .revolution .row {
@@ -387,6 +388,7 @@ header {
     position: relative;
     min-height: 872px;
     background: url("../img/bg/pricing_bg.png") center center/cover no-repeat;
+    padding: 30px 0px 77px 0px;
 }
 
 .pricing h2.pricing_title:before {
@@ -398,3 +400,132 @@ header {
     top: -49px;
     left: 21.7%;
 }
+
+.pricing .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.pricing .pricing_cards {
+    display: flex;
+}
+
+.pricing .pricing_item {
+    display: block;
+    width: 257px;
+    margin: 6px auto;
+    margin-top: 115px;
+}
+
+
+.pricing .pricing_item .pricing_name {
+    width: 257px;
+    height: 97px;
+    background-color: rgba(255, 255, 255, 0.06);
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 97px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pricing .pricing_item .pricing_description {
+    width: 257px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+h2.price {
+    display: inline;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 125px;
+    text-transform: uppercase;
+    padding: 35px 75px 0px 75px;
+}
+
+h2.price > span {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.pricing .pricing_item .pricing_description .sub_price {
+    color: rgba(255, 255, 255, 0.3);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.price_describe:before {
+    content: '';
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    background-color: rgba(199, 199, 199, 0.2);
+    top: 68%;
+    left: 40%;
+    z-index: 5;
+}
+
+.pricing .pricing_item .pricing_description .price_describe {
+    display: block;
+    width: 210px;
+    height: 45px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+
+p.price_describe {
+    text-align: center;
+}
+
+.pricing .pricing_item .pricing_description .price_btn {
+    width: 160px;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 28px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 36px;
+    margin-bottom: 40px;
+}
+
+.pricing .pricing_info {
+    margin-top: 133px;
+    opacity: 0.8;
+    color: rgba(162, 145, 165, 1);
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.subscribe {
+    height: 134px;
+    padding: 46px 135px;
+}
+
+
+
+
