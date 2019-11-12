@@ -630,20 +630,6 @@ p.price_describe {
     margin-top: 40px;
 }
 
-.news .news_btn {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgba(244, 244, 244, 1);
-    border: none;
-    border-radius: 5px;
-    color: rgba(141, 129, 172, 1);
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    /* line-height: 26px; */
-    margin-top: 40px;
-}
-
 .news .news_btn_1 {
     width: 158px;
     height: 35px;
@@ -730,6 +716,133 @@ footer .footer_text {
     /* line-height: 23px; */
     /* Text style for "5, 60 Juda" */
     letter-spacing: 0.28px;
+}
+
+
+@media (max-width: 1200px) {
+    .hero_screen .hero_title {
+        font-size: 76px;
+    }
+    
+    .hero_screen .hero_subtitle {
+        font-size: 27px;
+    }
+
+    .benefit_icon {
+        overflow-x: hidden;
+    }
+
+    .hero_screen .hero_btn {
+        left: 20%;
+    }
+
+    .benefit_title>h2 {
+        width: 440px;
+        text-align: center;
+        margin-top: -55px;
+    }
+
+    .about_fork_title, .pricing_title {
+        padding-top: 52px;
+    }
+
+    .pricing .row {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pricing .pricing_cards {
+        display: flex;
+        justify-content: space-around;
+
+    }
+    
+    .pricing .pricing_item {
+        width: 200px;
+        margin: 0px auto;
+        margin-top: 100px;
+    }
+
+    .pricing .pricing_item .pricing_name {
+        font-size: 22px;
+        width: inherit;
+    }
+    
+    .pricing .pricing_item .pricing_description {
+        width: inherit;
+    }
+    
+    h2.price {
+        font-size: 50px;
+        padding: 35px 54px 0px 54px;
+    }
+    
+    .pricing .pricing_item .pricing_description .sub_price {
+        color: rgba(255, 255, 255, 0.3);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .price_describe:before {
+        top: 67%;
+        left: 37%;
+    }
+    
+    .pricing .pricing_item .pricing_description .price_describe {
+        width: 180px;
+        font-size: 14px;
+    }
+    
+    p.price_describe {
+        text-align: center;
+    }
+    
+    .pricing .pricing_item .pricing_description .price_btn {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .subscribe {
+        padding: 40px 48px;
+    }
+
+    .subscribe .subscribe_text {
+        font-size: 23px;
+    }
+
+    .subscribe .subscribe_input {
+        max-width: 260px;
+    }
+
+    .subscribe .subscribe_btn {
+        width: 120px;
+    }
+
+    .news {
+        height: 100%;
+        padding: 80px 60px 75px 60px;
+    }
+    
+    .news .news_title {
+        font-size: 25px;
+    }
+    
+    footer {
+        height: 100%;
+        padding: 20px 60px 30px 60px;
+    }
+
+    footer .footer_phone {
+        font-size: 24px;
+    }
+
+    footer .footer_text {
+        font-size: 12px;
+    }
+
 }
 
 
