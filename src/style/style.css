@@ -2,7 +2,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-html {
+body {
     overflow-x: hidden;
 }
 
@@ -730,4 +730,61 @@ footer .footer_text {
     /* line-height: 23px; */
     /* Text style for "5, 60 Juda" */
     letter-spacing: 0.28px;
+}
+
+
+
+
+@media (max-width: 480px) {
+    ul.nav_menu {
+        display: none;
+    }
+
+    .hero_screen .hero_btn {
+        left: 10%;
+    }
+
+    .revolution .revolution_title {
+        font-size: 48px;
+        margin: 0; /* for rewrite "margin-bottom" from bootstrap */
+        margin-top: 56px;
+    }
+
+    .revolution .revolution_subtitle {
+        font-size: 16px;
+        margin-top: 54px;
+    }
+
+    .benefits .benefit_block {
+        flex-direction: column;
+    }    
+
+    .benefit_title>h2 {
+        width: 350px;
+        text-align: center;
+    }
+
+    .benefits .benefit_block:nth-child(2) {
+        display: flex;
+        order: -1;
+    }   /*  Need to think */
+
+    .benefits .benefit_block .benefit_img {
+        position: inherit;
+        display: none;
+        /* Need to think */
+    }
+
+    .feedbacks .social_networks_btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pricing .row {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
 }
